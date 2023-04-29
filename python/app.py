@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import nltk
 
 
-df = pd.read_csv('phyton/data_billing-acc-telemarketing2.csv')
+df = pd.read_csv('data/data_billing-acc-telemarketing3.csv')
 df.shape
 
 df_feature = df.drop('Outcome',1)
